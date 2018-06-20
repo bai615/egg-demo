@@ -1,0 +1,26 @@
+{
+  "name": "egg-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bai615/egg-demo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bai615/egg-demo/issues"
+  },
+  "homepage": "https://github.com/bai615/egg-demo#readme",
+  "dependencies": {
+    "egg": "^2.9.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.7.0"
+  }
+}
