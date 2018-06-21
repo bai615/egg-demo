@@ -14,3 +14,14 @@ exports.news = {
     //serverUrl: 'https://hacker-news.firebaseio.com/v0',
     serverUrl: 'http://127.0.0.1:8003/v0'
 };
+
+// add middleware robot
+exports.middleware = [
+    'robot'
+];
+// robot's configurations
+exports.robot = {
+    ua:[
+        /Baiduspider/i
+    ]
+};
